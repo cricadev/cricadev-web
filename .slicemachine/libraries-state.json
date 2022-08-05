@@ -1,0 +1,84 @@
+{
+  "slices": {
+    "components": {
+      "project_block": {
+        "library": "slices",
+        "id": "project_block",
+        "name": "ProjectBlock",
+        "description": "ProjectBlock",
+        "model": {
+          "id": "project_block",
+          "type": "SharedSlice",
+          "name": "ProjectBlock",
+          "description": "ProjectBlock",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ProjectBlock",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "These",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Dolore consequat est laboris tempor sit occaecat aliquip et quis. Id quis labore nulla nisi do duis nisi nisi do in ex.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "project_block"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/cricadev/Desktop/cricadev-projects/cricadev/.slicemachine/assets/slices/ProjectBlock/default/preview.png",
+            "width": 800,
+            "height": 232
+          }
+        }
+      }
+    }
+  }
+}
