@@ -1,0 +1,31 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "blog_posts",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "title": "thin",
+    "author": [
+      {
+        "type": "paragraph",
+        "text": "Irure ea nisi officia cupidatat dolor deserunt sunt.",
+        "spans": []
+      }
+    ],
+    "readtime": [
+      {
+        "type": "paragraph",
+        "text": "Cillum veniam ipsum officia amet.",
+        "spans": []
+      }
+    ],
+    "date": "2017-10-30T00:04:45+0000"
+  }
+}

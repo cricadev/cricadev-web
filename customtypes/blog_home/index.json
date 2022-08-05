@@ -1,6 +1,6 @@
 {
-  "id": "projects",
-  "label": "projects",
+  "id": "blog_home",
+  "label": "blog home",
   "repeatable": false,
   "status": true,
   "json": {

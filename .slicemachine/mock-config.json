@@ -1,7 +1,11 @@
 {
   "_cts": {
     "home": {},
-    "projects": {}
+    "projects": {},
+    "blog_homepage": {},
+    "blog_post": {},
+    "blog_posts": {},
+    "blog_home": {}
   },
   "slices": {
     "ProjectBlock": {}
