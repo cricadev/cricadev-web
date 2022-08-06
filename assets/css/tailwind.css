@@ -6,6 +6,7 @@
 
 html {
   @apply bg-black;
+  @apply font-lato;
 }
 @layer components {
   .link {
