@@ -11,13 +11,11 @@
       </div>
     </nav>
     <header>
-      <NuxtLink to="/" class="link">
-        <img
-          src="/static/favicon_cricadev.png"
-          alt="Cricadev"
-          class="w-8 h-8"
-        />
-      </NuxtLink>
+      <img
+        src="../assets/images/favicon_cricadev.png"
+        alt="Cricadev"
+        class="w-32"
+      />
     </header>
   </div>
 </template>
