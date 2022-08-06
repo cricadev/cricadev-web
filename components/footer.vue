@@ -3,7 +3,11 @@
     // social footer
     <nav class="container">
       <div class="flex items-center justify-between text-white">
-        <a href="/portfolio/" class="link-footer">
+        <a
+          href="https://instagram.com/cricadev"
+          class="link-footer"
+          target="_blank"
+        >
           <svg
             width="24"
             height="24"
@@ -18,7 +22,11 @@
             />
           </svg>
         </a>
-        <a href="/blog/" class="link-footer">
+        <a
+          href="https://twitter.com/cricadev"
+          class="link-footer"
+          target="_blank"
+        >
           <svg
             width="24"
             height="24"
@@ -31,7 +39,10 @@
             />
           </svg>
         </a>
-        <a href="/about/" class="link-footer"
+        <a
+          href="https://github.com/cricadev"
+          class="link-footer"
+          target="_blank"
           ><svg
             width="24"
             height="24"
@@ -46,10 +57,7 @@
             />
           </svg>
         </a>
-        <a
-          href="
-        "
-          class="link-footer"
+        <a href="mailto:cricadev@gmail.com" class="link-footer" target="_blank"
           ><svg
             width="24"
             height="24"
@@ -62,7 +70,11 @@
             />
           </svg>
         </a>
-        <a href="" class="link-footer">
+        <a
+          href="https://www.linkedin.com/in/cristian-david-casallas-velandia-81630b174/"
+          class="link-footer"
+          target="_blank"
+        >
           <svg
             width="24"
             height="24"

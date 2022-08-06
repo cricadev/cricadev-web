@@ -1,13 +1,11 @@
 <template lang="">
   <div>
     <nav>
-      <div class="container">
-        <div class="flex items-center justify-between">
-          <NuxtLink to="/" class="link"> Home </NuxtLink>
-          <NuxtLink to="/portfolio/" class="link"> Portfolio </NuxtLink>
-          <NuxtLink to="/blog/" class="link"> Blog </NuxtLink>
-          <NuxtLink to="/about/" class="link"> About </NuxtLink>
-        </div>
+      <div class="flex items-center justify-between">
+        <NuxtLink to="/" class="link"> Home </NuxtLink>
+        <NuxtLink to="/portfolio/" class="link"> Portfolio </NuxtLink>
+        <NuxtLink to="/about/" class="link"> About me</NuxtLink>
+        <NuxtLink to="/blog/" class="link"> Blog </NuxtLink>
       </div>
     </nav>
     <header>

@@ -10,6 +10,14 @@ html {
 }
 @layer components {
   .link {
-    @apply px-4 text-green underline text-xl2_m;
+    @apply px-4 text-white  text-xl2_m font-extralight transition-all;
+    &:focus,
+    &:active {
+      @apply text-white font-normal transition-all;
+    }
+    &:hover {
+      text-shadow: 2px 2px $green;
+      @apply text-white font-light  transition-all;
+    }
   }
 }
