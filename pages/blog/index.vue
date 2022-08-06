@@ -1,6 +1,16 @@
 <template lang="">
-  <div>
-    <h1>hola</h1>
+  <div class="text-4xl text-center">
+    <h1 class="m-10 text-9xl">CRICABLOG</h1>
+    <a href="/blog/how-to-learn-fast" class="p-4 text-green-500 underline"
+      >blog 1</a
+    >
+    <a href="/blog/welcome-to-cricadev" class="p-4 text-green-500 underline"
+      >blog 2</a
+    >
+    <a href="/" class="p-4 text-green-500 underline">HOME</a>
+    <a href="/portfolio/" class="p-4 text-green-500 underline">PORTFOLIO</a>
+    <a href="/about/" class="p-4 text-green-500 underline">ABOUT ME</a>
+    <a href="/blog/">BLOG</a>
   </div>
 </template>
 <script>

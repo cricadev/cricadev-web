@@ -1,6 +1,7 @@
 <template lang="">
   <div>
     <span>{{ document.title }}</span>
+    <a href="/blog" class="text-green-500 underline">Go back</a>
   </div>
 </template>
 <script>
