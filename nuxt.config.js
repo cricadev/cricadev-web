@@ -17,7 +17,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo-cricadev.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon-cricadev.png' }
     ]
   },
 

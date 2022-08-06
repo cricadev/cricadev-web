@@ -1,7 +1,6 @@
 {
   "id": "mock-doc-id",
-  "uid": "give",
-  "url": "/give",
+  "url": null,
   "type": "blog_home",
   "href": null,
   "tags": [],
@@ -11,5 +10,34 @@
   "linked_documents": [],
   "lang": "en-us",
   "alternate_languages": [],
-  "data": {}
+  "data": {
+    "meta_title": [
+      {
+        "type": "paragraph",
+        "text": "Proident in ad et irure aliquip. Cillum mollit in nulla cupidatat culpa ullamco quis. Amet magna consequat occaecat dolor elit occaecat ullamco minim incididunt eiusmod qui nulla ipsum in.",
+        "spans": []
+      }
+    ],
+    "meta_description": [
+      {
+        "type": "paragraph",
+        "text": "Esse voluptate irure velit amet. Nulla id consectetur cupidatat quis enim adipisicing adipisicing commodo sint aliqua. Magna cillum eu ex commodo.",
+        "spans": []
+      }
+    ],
+    "og_title": [
+      {
+        "type": "paragraph",
+        "text": "Sit duis magna elit excepteur incididunt laboris officia ut ullamco aliqua id.",
+        "spans": []
+      }
+    ],
+    "og_description": [
+      {
+        "type": "paragraph",
+        "text": "Ut qui tempor cillum sint elit cillum do ad consectetur elit aliqua. Veniam ut dolore mollit deserunt sit sunt minim tempor sit cupidatat culpa aute ullamco nulla. Dolore eu laborum reprehenderit labore ea do excepteur eiusmod culpa amet fugiat in.",
+        "spans": []
+      }
+    ]
+  }
 }

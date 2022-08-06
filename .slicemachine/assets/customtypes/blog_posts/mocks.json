@@ -11,21 +11,51 @@
   "lang": "en-us",
   "alternate_languages": [],
   "data": {
-    "title": "thin",
+    "title": "said",
     "author": [
       {
         "type": "paragraph",
-        "text": "Irure ea nisi officia cupidatat dolor deserunt sunt.",
+        "text": "Nulla dolore tempor consequat est et laborum in Lorem dolore do laboris exercitation in.",
         "spans": []
       }
     ],
     "readtime": [
       {
         "type": "paragraph",
-        "text": "Cillum veniam ipsum officia amet.",
+        "text": "Nisi nostrud aute non labore ea in labore in aute est magna consectetur.",
         "spans": []
       }
     ],
-    "date": "2017-10-30T00:04:45+0000"
+    "date": "2020-05-08T03:40:14+0000",
+    "featured_image": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+    },
+    "category": [
+      {
+        "type": "paragraph",
+        "text": "Ut exercitation exercitation eiusmod dolore. Ad eu elit laborum aliquip irure elit veniam. Dolor cillum nostrud et veniam nostrud minim.",
+        "spans": []
+      }
+    ],
+    "meta_title": [
+      {
+        "type": "paragraph",
+        "text": "Irure fugiat irure aliquip sunt minim velit incididunt mollit in ad occaecat aliqua amet Lorem deserunt. Sit commodo in ad dolore anim nisi incididunt anim non laboris tempor sit anim.",
+        "spans": []
+      }
+    ],
+    "meta_description": [
+      {
+        "type": "paragraph",
+        "text": "Excepteur consectetur laborum dolor ut minim dolore. Esse ut labore ipsum incididunt aliqua anim non occaecat exercitation nisi ipsum.",
+        "spans": []
+      }
+    ]
   }
 }
