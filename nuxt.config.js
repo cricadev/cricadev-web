@@ -34,6 +34,9 @@ export default {
   prismic: {
     endpoint: apiEndpoint,
     modern: true,
+    preview: '/my-preview',
+    previewReloadType: 'hard'
+
     /* see configuration for more */
   },
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
