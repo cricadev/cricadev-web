@@ -1,7 +1,7 @@
 <template lang="">
-  <div>
-    <span>{{ document.title }}</span>
-    <a href="/blog" class="text-green-500 underline">Go back</a>
+  <div class="text-center">
+    <h2 class="m-10 text-white text-xl4_d">{{ document.title }}</h2>
+    <a href="/blog" class="link">Go back</a>
   </div>
 </template>
 <script>
