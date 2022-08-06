@@ -1,7 +1,9 @@
 <template lang="">
   <div class="text-center">
-    <h2 class="m-10 text-white text-xl4_d">{{ document.title }}</h2>
-    <a href="/blog" class="link">Go back</a>
+    <h2 class="m-10 text-white text-xl4_d">
+      {{ document.title }}
+    </h2>
+    <NuxtLink to="/blog/" class="link">back</NuxtLink>
   </div>
 </template>
 <script>

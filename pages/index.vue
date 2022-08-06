@@ -1,15 +1,21 @@
 <template>
   <div class="text-4xl text-center bg-black">
-    <h1 class="m-10 text-white text-xl4_d">CRICA HOME</h1>
-    <a href="/" class="link">HOME</a>
-    <NuxtLink to="/portfolio" class="link">PORTFOLIO</NuxtLink>
-
-    <a href="/portfolio/" class="link">PORTFOLIO</a>
-    <a href="/about/" class="link">ABOUT ME</a>
-    <a href="/blog/" class="link">BLOG</a>
+    <h2 class="m-10 text-white text-xl4_d">
+      <span>{{ document.uid }}</span>
+    </h2>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  async asyncData({ $prismic, params, error }) {
+    const document = await $prismic.api.getByUID("home_homepage", "home");
+
+    if (document) {
+      return { document };
+    } else {
+      error({ statusCode: 404, message: "Page not found" });
+    }
+  },
+};
 </script>

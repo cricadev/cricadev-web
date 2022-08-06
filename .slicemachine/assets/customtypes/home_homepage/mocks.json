@@ -1,0 +1,43 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "home_homepage",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "meta_title": [
+      {
+        "type": "paragraph",
+        "text": "Consectetur sunt et laboris sint adipisicing cupidatat in et incididunt minim laboris eiusmod. Aute amet in aute ad sunt id sit id eu occaecat id velit.",
+        "spans": []
+      }
+    ],
+    "meta_description": [
+      {
+        "type": "paragraph",
+        "text": "Consectetur officia labore commodo Lorem qui non in do incididunt aliqua tempor. Adipisicing aute commodo ex mollit velit incididunt.",
+        "spans": []
+      }
+    ],
+    "og_title": [
+      {
+        "type": "paragraph",
+        "text": "Dolor id labore eu ipsum pariatur culpa tempor fugiat elit Lorem elit. Minim ut excepteur nisi proident Lorem ullamco. Eiusmod culpa cillum incididunt laborum ex sint.",
+        "spans": []
+      }
+    ],
+    "og_description": [
+      {
+        "type": "paragraph",
+        "text": "Magna enim labore sunt elit eu laboris id.",
+        "spans": []
+      }
+    ]
+  }
+}

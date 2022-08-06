@@ -1,0 +1,43 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "about_homepage",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "meta_title": [
+      {
+        "type": "paragraph",
+        "text": "Labore eu exercitation incididunt nostrud. Enim dolor aliquip id amet incididunt duis exercitation proident deserunt magna ad voluptate occaecat.",
+        "spans": []
+      }
+    ],
+    "meta_description": [
+      {
+        "type": "paragraph",
+        "text": "Anim duis ipsum fugiat proident proident. Culpa exercitation sunt exercitation. Pariatur dolore magna commodo elit id minim minim non exercitation sit velit.",
+        "spans": []
+      }
+    ],
+    "og_title": [
+      {
+        "type": "paragraph",
+        "text": "Minim minim ex laborum id fugiat ad tempor deserunt.",
+        "spans": []
+      }
+    ],
+    "og_description": [
+      {
+        "type": "paragraph",
+        "text": "Duis do in ea nulla sint ex.",
+        "spans": []
+      }
+    ]
+  }
+}

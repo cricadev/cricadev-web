@@ -1,0 +1,43 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "portfolio_homepage",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "meta_title": [
+      {
+        "type": "paragraph",
+        "text": "Fugiat dolore excepteur velit enim enim Lorem officia officia cupidatat cillum elit. Ea in cillum duis culpa veniam qui elit excepteur cillum occaecat nostrud officia.",
+        "spans": []
+      }
+    ],
+    "meta_description": [
+      {
+        "type": "paragraph",
+        "text": "Commodo eiusmod sint ea est eiusmod sit sunt duis ea officia officia et. Do consequat veniam culpa.",
+        "spans": []
+      }
+    ],
+    "og_title": [
+      {
+        "type": "paragraph",
+        "text": "Qui irure Lorem veniam tempor labore consequat voluptate ut. Lorem qui ullamco enim velit excepteur elit deserunt. Dolor id reprehenderit in ex do culpa elit qui et dolor eiusmod Lorem.",
+        "spans": []
+      }
+    ],
+    "og_description": [
+      {
+        "type": "paragraph",
+        "text": "Cupidatat non aliquip sunt ut elit.",
+        "spans": []
+      }
+    ]
+  }
+}

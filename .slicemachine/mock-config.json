@@ -5,7 +5,10 @@
     "blog_homepage": {},
     "blog_post": {},
     "blog_posts": {},
-    "blog_home": {}
+    "blog_home": {},
+    "home_homepage": {},
+    "about_homepage": {},
+    "portfolio_homepage": {}
   },
   "slices": {
     "ProjectBlock": {}

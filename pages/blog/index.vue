@@ -1,14 +1,11 @@
 <template lang="">
   <div class="text-4xl text-center">
-    <h1 class="m-10 text-white text-xl4_d">CRICABLOG</h1>
-
-    <a href="/" class="link">HOME</a>
-    <a href="/portfolio/" class="link">PORTFOLIO</a>
-    <a href="/about/" class="link">ABOUT ME</a>
-    <a href="/blog/" class="link">BLOG</a>
+    <h2 class="m-10 text-white text-xl4_d">
+      <span>{{ document.uid }}</span>
+    </h2>
     <div class="block">
-      <a href="/blog/how-to-learn-fast" class="link">BLOG 1</a>
-      <a href="/blog/welcome-to-cricadev" class="link">BLOG 2</a>
+      <NuxtLink to="/blog/welcome-to-cricadev" class="link">BLOG 1</NuxtLink>
+      <NuxtLink to="/blog/how-to-learn-fast" class="link">BLOG 2</NuxtLink>
     </div>
   </div>
 </template>
