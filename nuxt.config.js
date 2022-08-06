@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'cricadev',
+    title: 'CricaDev',
     htmlAttrs: {
       lang: 'en'
     },
@@ -17,7 +17,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon-cricadev.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon_cricadev.png' }
     ]
   },
 
