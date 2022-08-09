@@ -1,6 +1,6 @@
 <template lang="">
-  <body id="app" :class="dark ? 'dark' : 'light'" class="">
-    <main class="dark-mode-bg">
+  <body id="app" :class="dark ? 'dark' : 'light'">
+    <main class="w-full min-h-screen dark-mode-bg">
       <Header />
 
       <Nuxt />
