@@ -1,8 +1,7 @@
 <template lang="">
-  <footer>
-    // social footer
-    <nav class="container">
-      <div class="flex items-center justify-between text-white">
+
+  <footer class="relative w-full bottom-4">
+    <nav class="container flex justify-center w-full mx-auto space-x-4 text-white text-lg_d dark:text-green ">
         <a
           href="https://instagram.com/cricadev"
           class="link-footer"
@@ -89,11 +88,27 @@
             />
           </svg>
         </a>
+        <div>
+        <button @click="toggleDarkMode">toggle</button>
+        </div>
       </div>
     </nav>
   </footer>
 </template>
 <script>
-export default {};
+  import { mapGetters, mapMutations } from 'vuex';
+
+export default {
+    computed: {
+    ...mapGetters(["dark"]),
+  },
+  methods: {
+      ...mapMutations(['SET_DARK']),
+
+      toggleDarkMode() {
+        this.SET_DARK(!this.dark);
+      }
+    }
+};
 </script>
 <style lang=""></style>

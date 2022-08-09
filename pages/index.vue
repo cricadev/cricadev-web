@@ -1,8 +1,9 @@
 <template>
-  <div class="text-4xl text-center bg-black">
-    <h2 class="m-10 text-white text-xl4_d">
+  <div class="text-4xl text-center">
+    <h2 class="m-10 text-white text-xl4_d dark:text-black">
       <span>{{ document.uid }}</span>
     </h2>
+    <img src="" alt="" class="w-full dark-mode-cricadev h-80" />
   </div>
 </template>
 

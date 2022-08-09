@@ -5,12 +5,11 @@
 @tailwind utilities;
 
 html {
-  @apply bg-black;
   @apply font-lato;
 }
 @layer components {
   .link {
-    @apply px-4 text-white  text-xl2_m font-extralight transition-all;
+    @apply px-4 text-white text-xl_d font-extralight transition-all;
     &:focus,
     &:active {
       @apply text-white font-normal transition-all;
@@ -19,5 +18,16 @@ html {
       text-shadow: 2px 2px $green;
       @apply text-white font-light  transition-all;
     }
+  }
+}
+@layer utilities {
+  .dark-mode-bg {
+    @apply bg-black dark:bg-white;
+  }
+  .dark-mode-cricadev {
+    background-image: url("/assets/images/darkMode-cricadev.png");
+  }
+  .light-mode-cricadev {
+    background-image: url("/assets/images/lightMode-cricadev.png");
   }
 }
