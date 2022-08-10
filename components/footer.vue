@@ -1,7 +1,7 @@
 <template lang="">
 
   <footer class="relative w-full bottom-4">
-    <nav class="container flex justify-center w-full mx-auto space-x-4 text-white text-lg_d dark:text-green ">
+    <nav class="container flex justify-center w-full mx-auto space-x-4 text-white text-lg_d dark:text-black ">
         <a
           href="https://instagram.com/cricadev"
           class="link-footer"
@@ -89,44 +89,19 @@
           </svg>
         </a>
         <div>
-        <button @click="toggleDarkMode">toggle</button>
+        <buttonToggle></buttonToggle>
         </div>
       </div>
     </nav>
   </footer>
 </template>
 <script>
-  import { mapGetters, mapMutations } from 'vuex';
-
-export default {
-    computed: {
-    ...mapGetters(["dark"]),
+import buttonToggle from "./buttonToggle.vue";
+export default{
+  components: {
+    buttonToggle,
   },
-  mounted() {
-      if (localStorage.theme === undefined) {
-        if (
-          window.matchMedia &&
-          window.matchMedia('(prefers-color-scheme: dark)')
-            .matches
-        ) {
-          localStorage.theme = 'dark';
-          this.SET_DARK(true);
-        } else {
-          localStorage.theme = 'light';
-        }
-      } else {
-        this.SET_DARK(localStorage.theme === 'dark');
-      }
-    },
-  methods: {
-      ...mapMutations(['SET_DARK']),
-
-      toggleDarkMode() {
-        this.SET_DARK(!this.dark);
-        localStorage.theme = this.dark ? 'dark' : 'light';
-
-      }
-    }
 };
+
 </script>
 <style lang=""></style>

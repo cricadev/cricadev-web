@@ -3,7 +3,7 @@
     <h2 class="m-10 text-white text-xl4_d dark:text-black">
       <span>{{ document.uid }}</span>
     </h2>
-    <img src="" alt="" class="w-full dark-mode-cricadev h-80" />
+    <div class="min-h-full wrap-image"></div>
   </div>
 </template>
 
