@@ -102,11 +102,29 @@ export default {
     computed: {
     ...mapGetters(["dark"]),
   },
+  mounted() {
+      if (localStorage.theme === undefined) {
+        if (
+          window.matchMedia &&
+          window.matchMedia('(prefers-color-scheme: dark)')
+            .matches
+        ) {
+          localStorage.theme = 'dark';
+          this.SET_DARK(true);
+        } else {
+          localStorage.theme = 'light';
+        }
+      } else {
+        this.SET_DARK(localStorage.theme === 'dark');
+      }
+    },
   methods: {
       ...mapMutations(['SET_DARK']),
 
       toggleDarkMode() {
         this.SET_DARK(!this.dark);
+        localStorage.theme = this.dark ? 'dark' : 'light';
+
       }
     }
 };
